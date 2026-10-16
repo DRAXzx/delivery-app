@@ -67,7 +67,7 @@ public class EmailService {
 
         texto.append("Seu pedido foi recebido pelo estabelecimento ")
                 .append(pedido.establishmentName())
-                .append(".\n\n");
+                .append(" e está em análise.\n\n");
 
         texto.append("Itens do pedido:\n");
 
